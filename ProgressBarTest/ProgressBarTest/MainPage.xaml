@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:app="clr-namespace:ProgressBarTest"
+             x:Class="ProgressBarTest.MainPage"
+             Title="Maui Progress Bar Test App"
+             x:DataType="app:ProgressBarTestViewModel">
+    <ContentPage.Content>
+        <Grid Grid.RowSpacing="8" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button Text="Open Progress Bar Test Page" Clicked="ProgressBarTestPageButton_OnClicked" />
+        </Grid>        
+    </ContentPage.Content>
+
+</ContentPage>
