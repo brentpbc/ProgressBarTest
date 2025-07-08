@@ -16,7 +16,6 @@ public class ProgressBarTestViewModel : BaseModel
         set { SetProperty(ref headerPct, value); }
     }
     
-    bool AlternateCO = false;
     public ProgressBarTestViewModel()
     {
         //Update();
@@ -42,12 +41,6 @@ public class ProgressBarTestViewModel : BaseModel
     public void ReloadList()
     {
         TestData = JobTestData.PopulateData();
-    }
-    
-    public void Update()
-    {
-        PopulateData(AlternateCO);
-        AlternateCO = !AlternateCO;
     }
     
     double pct1 = 35;

@@ -14,10 +14,6 @@ public partial class ProgressBarTestPage : ContentPage
         InitializeComponent();
         BindingContext = ViewModel = new ProgressBarTestViewModel();
     }
-    void UpdateButton_OnClicked(object sender, EventArgs e)
-    {
-        ViewModel.Update();
-    }
 
     void UpdatePctButton_OnClicked(object sender, EventArgs e)
     {

@@ -16,7 +16,6 @@
             </Grid.RowDefinitions>       
             <HorizontalStackLayout HorizontalOptions="Center" Spacing="8">
                 <Button Text="Reload list" Clicked="ReloadButton_OnClicked" />
-                <!-- <Button Text="Update list" Clicked="UpdateButton_OnClicked" />-->
                 <Button Text="update pct" Clicked="UpdatePctButton_OnClicked" />
             </HorizontalStackLayout>
             <HorizontalStackLayout Grid.Row="1" Spacing="8" >
